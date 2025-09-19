@@ -15,3 +15,24 @@ The Kaggle dataset we are using is a cleaned, 2022 version of this data, reduced
 - Preventive care & testing: Flu vaccine, tetanus, chest scans, COVID test results
 - Heart disease indicators: History of heart attack, angina, or stroke
 
+
+# Dataset Download
+1. Go to https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease/data
+2. Log in to your Kaggle account (or sign up if you don't have one)
+3. Under the **Data Card** tab, select **heart_2022_no_nans.csv**, and click **Download**. This will download as a .zip file.
+4. Unzip the dataset file
+
+# Dependencies
+The project runs in Google Colab.
+To run it locally, install the following libraries:
+- pandas
+- matplotlib
+
+This can be done by: ```pip install pandas matplotlib```
+
+# How to Run
+1. Download the Colab notebook (.ipynb file) under the **Notebook** directory in this repository
+2. Open the Colab notebook in Google Colab
+3. Upload the dataset (heart_2022_no_nans.csv) to the notebook environment
+4. Run all the cells to replicate the results
+
