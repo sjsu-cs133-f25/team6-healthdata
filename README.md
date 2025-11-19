@@ -27,8 +27,13 @@ The project runs in Google Colab.
 To run it locally, install the following libraries:
 - pandas
 - matplotlib
+- seaborn
+- numpy
+- panel
+- plotly
+- scipy
 
-This can be done by: ```pip install pandas matplotlib```
+This can be done by: ```pip install pandas matplotlib seaborn numpy panel plotly scipy```
 
 # How to Run
 1. Download the Colab notebook (.ipynb file) under the **Notebook** directory in this repository
